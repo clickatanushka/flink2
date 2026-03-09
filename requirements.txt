@@ -1,2 +1,6 @@
-confluent-kafka==2.13.2
-Faker==40.8.0
+apache-flink==1.17.1 --no-deps
+kafka-python==2.0.2
+redis==5.0.1
+faker==20.1.0
+py4j==0.10.9.7
+python-dateutil>=2.8.0

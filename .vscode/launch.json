@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run: Producer",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/producer/transaction_generator.py",
+      "python": "${workspaceFolder}/venv/bin/python"
+    },
+    {
+      "name": "Run: Flink Job",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/flink_job/commerce_job.py",
+      "python": "${workspaceFolder}/venv/bin/python",
+      "env": {
+        "JAVA_HOME": "/usr/lib/jvm/java-11-openjdk"
+      }
+    }
+  ]
+}
