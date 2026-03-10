@@ -1,12 +1,15 @@
-KAFKA_BOOTSTRAP_SERVERS = "localhost:9092"
+# Kafka on EC2
+KAFKA_BOOTSTRAP_SERVERS = "13.127.178.157:9092"
 KAFKA_TOPIC = "financial_transactions"
 KAFKA_GROUP_ID = "flink-commerce-group"
 
-REDIS_HOST = "localhost"
+# Redis on EC2
+REDIS_HOST = "13.127.178.157"
 REDIS_PORT = 6379
 REDIS_DB = 0
 
-POSTGRES_HOST = "localhost"
+# Postgres on EC2
+POSTGRES_HOST = "13.127.178.157"
 POSTGRES_PORT = 5432
 POSTGRES_DB = "ecommerce"
 POSTGRES_USER = "flink"
