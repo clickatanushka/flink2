@@ -38,6 +38,8 @@ A production-grade real-time data engineering pipeline that processes live e-com
 │                                  └──────────┘   └──────────┘  │
 └─────────────────────────────────────────────────────────────────┘
 ```
+EC2 instance connect:
+<img width="1920" height="1080" alt="Screenshot From 2026-03-11 02-06-43" src="https://github.com/user-attachments/assets/613294d2-545d-430b-bc5d-0f99a6d8df07" />
 
 ---
 
@@ -67,6 +69,7 @@ A production-grade real-time data engineering pipeline that processes live e-com
 - **Cloud deployed** — Kafka, Redis, PostgreSQL and Grafana all running on AWS EC2
 - **Aggregations** — sales per category, sales per day, anomaly rates tracked in real time
 
+
 ---
 
 ## 📊 Grafana Dashboard
@@ -79,6 +82,13 @@ The dashboard includes 6 panels:
 4. **Total Transactions** — live running count
 5. **Detected Anomalies** — table of ML-flagged transactions with scores
 6. **Anomaly Rate** — pie chart of anomaly vs normal transactions
+
+DashBoard View 1.
+<img width="1920" height="1080" alt="Screenshot From 2026-03-11 20-11-36" src="https://github.com/user-attachments/assets/5cd29f4e-d5f3-4e27-8a16-b13f6b30636b" />
+
+Dashboard View 2.
+<img width="1920" height="1080" alt="Screenshot From 2026-03-11 20-11-46" src="https://github.com/user-attachments/assets/3aaf17e1-ffe9-4cf1-a1b1-105a32ba8833" />
+
 
 ---
 
@@ -213,6 +223,9 @@ The anomaly detection uses **Isolation Forest**, an unsupervised ML algorithm th
 - Total amount
 - Product category (encoded)
 - Payment method (encoded)
+
+  Terminal View:
+<img width="1920" height="1080" alt="Screenshot From 2026-03-11 20-08-44" src="https://github.com/user-attachments/assets/c682e1dc-91d8-41f9-8da2-cbad0060f4b9" />
 
 ---
 
