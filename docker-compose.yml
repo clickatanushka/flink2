@@ -16,7 +16,7 @@ services:
       KAFKA_BROKER_ID: 1
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
       # KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
-      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://13.127.178.157:9092
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://x:x:x:x:9092
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
       KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
 
@@ -56,7 +56,7 @@ services:
       - "5432:5432"
     environment:
       POSTGRES_USER: flink
-      POSTGRES_PASSWORD: flink123
+      POSTGRES_PASSWORD: x
       POSTGRES_DB: ecommerce
     volumes:
       - postgres_data:/var/lib/postgresql/data
@@ -67,7 +67,7 @@ services:
       - "3000:3000"
     environment:
       GF_SECURITY_ADMIN_USER: admin
-      GF_SECURITY_ADMIN_PASSWORD: admin123
+      GF_SECURITY_ADMIN_PASSWORD: x
     volumes:
       - grafana_data:/var/lib/grafana
     depends_on: [postgres]
