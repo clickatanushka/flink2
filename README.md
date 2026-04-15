@@ -38,6 +38,9 @@ A production-grade real-time data engineering pipeline that processes live e-com
 │                                  └──────────┘   └──────────┘  │
 └─────────────────────────────────────────────────────────────────┘
 ```
+
+<img width="891" height="980" alt="image" src="https://github.com/user-attachments/assets/695e0b76-df75-43bb-9fe6-3b526f0f561c" />
+
 EC2 instance connect:
 <img width="1920" height="1080" alt="Screenshot From 2026-03-11 02-06-43" src="https://github.com/user-attachments/assets/613294d2-545d-430b-bc5d-0f99a6d8df07" />
 
